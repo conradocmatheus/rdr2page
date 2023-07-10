@@ -1,0 +1,137 @@
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: "Viaoda Libre";
+  src: url(../font/Viaoda_Libre/ViaodaLibre-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Viaoda Libre;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3.6em;
+  color: white;
+  width: 100vw;
+  height: 17vh;
+  background-size: cover;
+  background-color: black;
+}
+
+.head-logo {
+  padding: 3px;
+  width: 20%;
+  height: 15vh;
+}
+.head-nav-ul li {
+  display: inline-block;
+  margin-right: 1.6em;
+}
+
+.head-nav-ul li a {
+  letter-spacing: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.head-nav-ul li a:hover {
+  text-decoration: underline;
+}
+
+.bgimage1 {
+  background-image: url(../images/bg1.png);
+  height: 83vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.page2 {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page2 h2 {
+  font-size: 5.4em;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+.page2 .text {
+  letter-spacing: 2px;
+  font-size: 2.8em;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 80px;
+}
+
+.cards {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+.cards img {
+  width: 520px;
+  height: 380px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+}
+
+.cards h3 {
+  font-size: 2em;
+}
+
+.cards p {
+  font-size: 1.6em;
+}
+
+.page3 {
+  background-color: red;
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page3 h3 {
+  margin-top: 0;
+  font-size: 6em;
+  margin-right: 40vw;
+  margin-left: 10vw;
+}
+
+.page3 p {
+  margin-top: 0;
+  font-size: 3em;
+  margin-right: 40vw;
+  margin-left: 10vw;
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
